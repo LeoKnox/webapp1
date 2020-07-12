@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Data;
-using WebApplication1.Data.Models;
 
 namespace WebApplication1.Controllers
 {

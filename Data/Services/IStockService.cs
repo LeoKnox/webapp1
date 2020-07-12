@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using WebApplication1.Data.Models;
+using WebApplication1.Data;
 
 namespace WebApplication1.Data
 {
