@@ -11,6 +11,6 @@ namespace WebApplication1.Data.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public DateTime StockPurchased { get; set; }
-        public DateTime? StockSold {get; set }
+        public DateTime? StockSold { get; set; }
     }
 }

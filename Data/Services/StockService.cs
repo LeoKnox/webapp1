@@ -1,22 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using WebApplication1.Data.Models;
 
-namespace WebApplication1.Data
+namespace WebApplication1.Data.Services
 {
-    public interface StockService: IStockService
+    public class StockService : IStockService
     {
         public void AddStock(Stock stock)
-        { }
-
-        public void DeleteStock(int stockId)
-        { }
-
-        public List<Stock> GetAllStocks()
-        { }
-
-        public Stock GetStockById(int stockId)
-        { }
-
-
+        {
+            Data.Stock.Add(stock);
+        }
     }
 }
